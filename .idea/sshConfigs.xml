@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="222.20.94.69" id="865df45b-61eb-47ac-88d9-0ca9d631e7e1" keyPath="C:\Users\24401\.ssh\dzyao_id_rsa" port="50010" nameFormat="DESCRIPTIVE" username="dzyao" />
+      <sshConfig authType="PASSWORD" host="cn-hn-dx-2.natfrp.cloud" id="08d0a1ee-7017-45a8-85ff-3e927f106c6d" port="52421" nameFormat="DESCRIPTIVE" username="dzyao" useOpenSSHConfig="true" />
+      <sshConfig authType="OPEN_SSH" host="222.20.94.68" id="8e12f6ee-56cb-4c5e-b89b-6a69b1d3fcee" port="50010" nameFormat="DESCRIPTIVE" username="wangzw" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

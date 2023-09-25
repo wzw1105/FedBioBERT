@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1b5a9bfb-56a7-4d0f-ad54-7a0b1f662bc1" name="dzyao-Roberta">
+        <fileTransfer accessType="SFTP" host="cn-hn-dx-2.natfrp.cloud" port="52421" sshConfigId="08d0a1ee-7017-45a8-85ff-3e927f106c6d" sshConfig="dzyao@cn-hn-dx-2.natfrp.cloud:52421 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a5f52051-1123-4633-9dd7-d326548ad1a2" name="node10-dzyao-Roberta">
+        <fileTransfer accessType="SFTP" host="222.20.94.69" port="50010" sshConfigId="865df45b-61eb-47ac-88d9-0ca9d631e7e1" sshConfig="dzyao@222.20.94.69:50010 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2e22b948-7ca0-47d5-9d61-9b00643fec0b" name="node13-Roberta">
+        <fileTransfer accessType="SFTP" sshConfigId="6357e9ff-471a-441c-b37e-bdbbdb87c614" sshConfig="wangzw@222.20.94.69:50013 agent">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e8c6c754-c3e4-4a29-a9fe-c6f371796e73" name="node10-Roberta">
+        <fileTransfer accessType="SFTP" host="222.20.94.68" port="50010" sshConfigId="8e12f6ee-56cb-4c5e-b89b-6a69b1d3fcee" sshConfig="wangzw@222.20.94.68:50010 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="cab6a732-1705-41f7-a3e3-56b5c8c1ad49" name="node15-Roberta">
+        <fileTransfer accessType="SFTP" host="222.20.94.68" port="50015" sshConfigId="3eee6db5-57b7-4974-be99-af97254160b4" sshConfig="dzyao@222.20.94.68:50015 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
