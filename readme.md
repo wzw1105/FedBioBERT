@@ -13,14 +13,14 @@ $HOME/anaconda3/envs/pytorch-py3.6.9/bin/python run.py \
          --manual_seed 7 --pn_normalize True --same_seed_process False \
          --partition_data random \
          --world_conf 0,0,1,1,1 --on_cuda True \
-         --n_clients 10 --participation_ratio 0.1 \
-         --n_comm_rounds 15 --n_local_rounds 2 \
-         --lr 1e-4 --end_lr 5e-6 --warmup_ratio 0.1\
+         --n_clients 10 --participation_ratio 0.4 \
+         --n_comm_rounds 18 --n_local_rounds 2 \
+         --lr 5e-5 --end_lr 5e-6 --warmup_ratio 0.1\
          --num_client_encoder 4 --num_server_encoder 8 \
-         --num_device 2 --fedavg_embedding_head True --fedavg_server_model True \
-         --gpu_id 0,0 --num_batch 10000 \
-         --data_dir /home/wangzw/pycharm_projects/PubMed --tot_files 2 \
-         --checkpoint_save_dir /mnt/7T/wangzw/trained_models/test \
+         --num_device 4 --fedavg_embedding_head True --fedavg_server_model True \
+         --gpu_ids 0,0,1,2,3 --num_batch 10000 \
+         --data_dir /home/wangzw/pycharm_projects/PubMed --tot_files 18 \
+         --checkpoint_save_dir /mnt/7T/wangzw/trained_models/fedbert \
          --from_checkpoint False --from_checkpoint_round 3
 ```
 We also provide the bash for running in HPC cluster with SLURM in sub-directory FedBioBert_10_4_1_3_16_Parallel.
